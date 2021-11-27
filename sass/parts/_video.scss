@@ -2,6 +2,7 @@
 	max-width: 100%;
 	display: flex;
 	padding: 5rem 0;
+	background-color: #fbfbfb;
 }
 .downoload{
 	display: flex;
@@ -11,25 +12,10 @@
 	max-width: 505px;
 	padding:0 1rem;
 	&__title{
-		font-size: 36px;
-		margin: 0;
-		line-height: 48px;
-		color: #282828;
-		font-weight: 700px;
-		font-family: "Poppins";
 		max-width: 380px;
-		&--blue{
-			color: #00cff1;
-		}
-	}
-	&__descrip{
-		font-size: 16px;
-		line-height: 24px;
-		color: #575757;
-		font-weight: 400px;
-		font-family: "Poppins";
 	}
 }
+
 .buttons{
 	display: flex;
 }

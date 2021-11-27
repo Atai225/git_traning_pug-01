@@ -17,17 +17,18 @@
 	max-width: 575px;
 	margin-left: 1rem;
 }
-.feature__title{
+.section__title{
 	font-size: 36px;
 	line-height: 48px;
 	color: #282828;
 	font-weight: 700px;
 	font-family: "Poppins";
-	&--blue{
-		color: #00cff1;
-	}
+	margin: 0;
 }
-.feature__descrip{
+.title--blue{
+	color: #00cff1;
+}
+.section__descrip{
 	font-size: 15px;
 	line-height: 24px;
 	color: #575757;
@@ -45,6 +46,20 @@
 		max-width: 100%;
 		height: auto;
 		margin-bottom: 40px;
+	}
+	&--title{
+		font-size: 18px;
+		line-height: 8px;
+		color: #414040;
+		font-weight: 700px;
+		font-family: "Poppins";
+	}
+	&--text{
+		font-size: 15px;
+		line-height: 24px;
+		color: #575757;
+		font-weight: 400px;
+		font-family: "Poppins";
 	}
 }
 @include media(1020px){
