@@ -1,5 +1,5 @@
 .download-section{
-	padding: 7rem 0;
+	padding: 3rem 0;
 }
 .section__bg{
 	max-height: 37.5rem;
@@ -8,8 +8,8 @@
 	url(../img/video_poster.jpg) no-repeat 0 0 / cover;
 	position: relative;
 	overflow: hidden;
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	display: flex;
+
 }
 .section__bg::after{
 	content: "";
@@ -26,7 +26,6 @@
 	z-index: 10;
 	max-width: 445px;
 	margin:auto;
-	margin-top: 20%;
 }
 .text--white{
 	color: white;
@@ -47,17 +46,25 @@
 .download__image{
 	position: relative;
 	z-index: 3;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .downoload__img{
 	@include img-fit(100%);
 }
 @include media(690px){
-	.download__image{
+	.download__image,.downoload__img{
 		display: none;
 	}
 	.download__info{
 		margin: 0;
 		padding: 20px;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.buttons{
+		display: block;
+	}
+	.downoload__btn{
+		margin-top: 0.75rem;
 	}
 }
