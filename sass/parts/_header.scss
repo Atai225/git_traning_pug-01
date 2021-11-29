@@ -8,12 +8,15 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
+  justify-content: space-between; 
 }
 
-.wrapper {
+.bg {
   background: url(../img/header_bg.jpg);
+}
+
+.logo, .nav, .btn {
+  margin-top: 30px;
 }
 
 .nav a {
