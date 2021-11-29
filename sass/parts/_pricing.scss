@@ -1,0 +1,122 @@
+.pricing {
+  text-align: center;
+  font-family: "Poppins"
+}
+
+.prising_title h1{
+  font-size: 36px;
+  color: rgb(40, 40, 40);
+  font-weight: bold
+}
+
+.prising_title p{
+  font-size: 15px;
+  color: rgb(87, 87, 87);
+  line-height: 1.6;
+  text-align: center
+}
+
+.year_month {
+  margin-top: 30px;
+}
+
+.month_bg {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  text-align: center;
+}
+
+.prising_btn {
+  margin-top: 40px;
+}
+
+.month_bg {
+  border-radius: 50px 0 0 50px;
+  padding: 16px 40px;
+  background-color: rgb(36, 198, 87);
+}
+
+.year_bg {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(87, 87, 87);
+  line-height: 2;
+  text-align: center;
+}
+
+.year_bg {
+  padding: 16px 40px;
+  border-radius: 0 50px 50px 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card_grid {
+  font-family: "Poppins";
+}
+
+.card h1 {
+  font-size: 24px;
+  font-family: "Poppins";
+  color: rgb(87, 87, 87);
+  font-weight: bold;
+  line-height: 2;
+}
+.card h2 {
+  font-size: 40px;
+  font-family: "Poppins";
+  color: rgb(0, 207, 241);
+  font-weight: bold;
+  line-height: 0.8;
+}
+
+span {
+  font-size: 18px;
+  color: rgb(87, 87, 87);
+}
+
+.p {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(87, 87, 87);
+  line-height: 2.667;
+  text-align: center;
+}
+
+.btn_card {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn_card a {
+  border-radius: 30px;
+  padding: 18px 30px;
+  background-color: rgb(0, 207, 241);
+}
+
+.card_grid {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(255, 255, 255);
+
+}
+
+.card {
+  border: 1px solid #c9c9c941;
+}
+
+.list {
+  list-style: none;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Raleway";
+  color: rgb(87, 87, 87);
+  line-height: 2.667;
+}
+
