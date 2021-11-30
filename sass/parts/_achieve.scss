@@ -1,0 +1,70 @@
+.achieve__cards{
+	display: flex;
+	padding: 8rem 0;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+
+}
+.card__item{
+	z-index: 3;
+	position: relative;
+	width: 230px;
+	height: 250px;
+	border: 2px dashed white;
+	margin-left: 8rem;
+	padding: 2rem;
+	transform: rotate(-25deg);
+}
+.card--withline1::after,.card--withline2::after,.card--withline3::after{
+	content: "";
+	position: absolute;
+	border-bottom: 3px solid rgb(255, 255, 255);
+	width: 82px;
+	z-index: 1;
+	top: 215px;
+	left: 236px;
+	transform: rotate(25deg);
+}
+.desc--width{
+	min-width: 175px;
+}
+.card__info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	transform: rotate(25deg);
+}
+.card__item:nth-child(1){
+	margin: 0;
+}
+.card__number,.card__descrip{
+	font-size: 48px;
+	line-height: 48px;
+	color: #fefefe;
+	font-weight: 700;
+	font-family: "Poppins";
+	text-align: center;
+	margin: 0;
+}
+.card__descrip{
+	font-size: 24px;
+	font-weight: lighter;
+}
+.card__img{
+	@include img-fit(100%);
+	margin-bottom: 1rem;
+}
+@include media(946px){
+	.card--withline2::after{
+		display: none;
+	}
+	.card--withline3::after{
+		display: none;
+	}
+}
+@include media(1304px){
+	.card--withline3::after{
+		display: none;
+	}
+}
