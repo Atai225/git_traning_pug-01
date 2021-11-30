@@ -44,6 +44,19 @@
   border-radius: 30px
 }
 
+@media screen and (max-width: 992px){
+  .btn {
+    display: none;
+  }
+  .banner_img {
+    display: none;
+  }
+  .banner_info {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}
+
 .banner {
   margin-top: 150px;
   display: flex;
